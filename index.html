@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Counting Sort</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Counting Sort</h1>
+      
+      <div class="message" id="message">
+        Velkommen! Indtast hvor mange elever har du i din klasse.
+      </div>
+
+      <div class="controls">
+        <button id="randomizeBtn" disabled>Randomize</button>
+        <input type="number" placeholder="Tal mellem 5 og 50" id="maxNum" />
+      </div>
+      
+      
+      <div class="game-area">
+        <div>
+          <h3>Usorteret karakter liste:</h3>
+          <div class="input-zone" id="inputZone"></div>
+        </div>
+
+        <div>
+          <h3>Karaterer:</h3>
+          <div class="grades-zone" id="grades"></div>
+          <div class="count-array" id="countArray"></div>
+        </div>
+
+      <div>
+        <h3>Sorteret karakter liste:</h3>
+        <div class="output-zone" id="outputZone"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
